@@ -7,7 +7,7 @@ import {
 import "./styles.css";
 
 const WeatherData = () => (
-    <div className="WeatherDataCont">
+    <div className="weatherDataCont">
         <WeatherTemperature 
             temperature={ 32 }
             weatherState={WINDY}

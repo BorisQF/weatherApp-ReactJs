@@ -27,15 +27,15 @@ const getWeatherIcon = (weatherState) => {
     let iconSize = "4x"
 
     if (icon) {
-        return <WeatherIcons name={ icon } size={ iconSize } />
+        return <WeatherIcons className="wicon" name={ icon } size={ iconSize } />
     }else{
-        return <WeatherIcons name={ icons[weatherState] } size={ iconSize } />
+        return <WeatherIcons className="wicon" name={ icons[weatherState] } size={ iconSize } />
     }
     
 }
 
 const WeatherTemperature = ({ temperature, weatherState }) => (
-    <div className="WeatherTempuratureCont">
+    <div className="weatherTempuratureCont">
         {
             getWeatherIcon(weatherState)
         }
