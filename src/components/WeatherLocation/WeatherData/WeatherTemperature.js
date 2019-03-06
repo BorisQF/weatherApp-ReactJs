@@ -4,10 +4,10 @@ import PropType from 'prop-types';
 import {
     SUN,
     CLOUD,
-    CLOUDY,
     RAIN,
     SNOW,
-    WINDY
+    THUNDER,
+    DRIZZLE
 } from './../../../constants/weatherIcons';
 import "./styles.css";
 
@@ -15,10 +15,10 @@ const icons = {
     
     [SUN]:  'day-sunny',
     [CLOUD]: 'cloud',
-    [CLOUDY]: 'cloudy',
     [RAIN]: 'rain',
     [SNOW]: 'snow',
-    [WINDY]: 'windy'
+    [THUNDER]: 'day-thunderstorm',
+    [DRIZZLE]: 'day-showers'
 
 }
 
